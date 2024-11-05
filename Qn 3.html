@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Qn 3.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50%; /* adjust the width as needed */
+        }
+    </style>
+</head>
+<body>
+    <form action="/action_page.php">
+        <div class="input-container">
+          <img src="user.svg"
+          width="40px"
+          height="40px">
+          <input class="input-field" type="text" placeholder="Name" name="usrnm">
+        </div>
+      
+        <div class="input-container">
+          <img src="envelope.svg"
+          width="40px"
+          height="40px">
+          <input class="input-field" type="text" placeholder="Email ID" name="email">
+        </div>
+
+        <div class="input-container">
+            <img src="phone-call.svg"
+            width="40px"
+            height="40px">
+            <input class="input-field" type="text" placeholder="Phone" name="phone">
+          </div>
+        
+        <div class="input-container">
+          <img src="lock.svg"
+          width="40px"
+          height="40px">
+          <input class="input-field" type="password" placeholder="Set Password" name="psw">
+        </div>
+      
+        <button type="submit" class="btn">REGISTER</button>
+    </form>
+</body>
+</html>
